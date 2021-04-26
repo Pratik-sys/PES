@@ -1,0 +1,14 @@
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\bin\Debug\PESExceptions.dll.config
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\bin\Debug\PESExceptions.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\bin\Debug\PESExceptions.pdb
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\obj\Debug\PESExceptions.csprojAssemblyReference.cache
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\obj\Debug\PESExceptions.csproj.CoreCompileInputs.cache
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\obj\Debug\PESExceptions.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESExceptions\obj\Debug\PESExceptions.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\bin\Debug\PESExceptions.dll.config
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\bin\Debug\PESExceptions.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\bin\Debug\PESExceptions.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\obj\Debug\PESExceptions.csprojAssemblyReference.cache
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\obj\Debug\PESExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\obj\Debug\PESExceptions.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESExceptions\obj\Debug\PESExceptions.pdb

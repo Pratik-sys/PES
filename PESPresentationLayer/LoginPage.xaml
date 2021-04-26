@@ -1,0 +1,116 @@
+﻿<Page x:Class="PESPresentationLayer.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PESPresentationLayer"
+      mc:Ignorable="d" 
+      ShowsNavigationUI="false"
+      WindowHeight="800" WindowWidth="800"
+      MinHeight="800" MinWidth="800"
+      Background="#fff"
+      Loaded="Page_Loaded"
+      Title="LoginPage">
+    <Page.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="LoginGreen" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="15" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#00d800"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#00d800"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#62ff62"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#62ff62"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <StackPanel x:Name="stack_login" Margin="50">
+        <StackPanel Margin="20" HorizontalAlignment="Center">
+            <Image Name="logo" Width="100" Height="100" Source="Resources/FS_INSURANCE.png"/>
+        </StackPanel>
+        <StackPanel>
+            <Border BorderBrush="#2F80ED" CornerRadius="50" BorderThickness="5" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="400">
+                <StackPanel Margin="50" HorizontalAlignment="Center">
+                    <StackPanel Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                                <ColumnDefinition Width="3*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Name="lbl_userId" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="10" Content="User ID" FontSize="16"/>
+                            <TextBox x:Name="txt_userId" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Padding="5" Margin="10" Width="120"/>
+
+                            <Label Name="lbl_password" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="10" Content="Password" FontSize="16"/>
+                            <PasswordBox x:Name="txt_password" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Padding="5" Margin="10" Width="120" PasswordChar="*"/>
+
+                            <Label Name="lbl_loginType" Grid.Row="2" Grid.Column="0" VerticalAlignment="Top" Margin="10" Content="Login Type" FontSize="16"/>
+                            <Grid Grid.Row="2" Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <RadioButton x:Name="rb_Admin" Grid.Row="0" Margin="10,20,0,0" VerticalContentAlignment="Center" FontSize="16">Admin</RadioButton>
+                                <RadioButton x:Name="rb_Customer" Grid.Row="1" Margin="10" VerticalContentAlignment="Center" FontSize="16">Customer</RadioButton>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Margin="10" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                        <Button x:Name="btn_login" BorderBrush="#FF2F80ED"  Background="#2F80ED" Foreground="#FFFFFF" FontFamily="Montserrat" Margin="10" Padding="5" Grid.Row="3" Content="Login" Width="150" FontSize="16" Click="btn_login_Click" Style="{DynamicResource LoginGreen}"/>
+                        <TextBlock Name="lbl_NewUser" Text="New User?" HorizontalAlignment="Center" FontSize="16" MouseLeftButtonUp="lbl_NewUser_MouseLeftButtonUp"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </StackPanel>
+</Page>

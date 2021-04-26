@@ -1,0 +1,14 @@
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\bin\Debug\PESEntity.dll.config
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\bin\Debug\PESEntity.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\bin\Debug\PESEntity.pdb
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\obj\Debug\PESEntity.csprojAssemblyReference.cache
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\obj\Debug\PESEntity.csproj.CoreCompileInputs.cache
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\obj\Debug\PESEntity.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESEntity\obj\Debug\PESEntity.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\bin\Debug\PESEntity.dll.config
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\bin\Debug\PESEntity.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\bin\Debug\PESEntity.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\obj\Debug\PESEntity.csprojAssemblyReference.cache
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\obj\Debug\PESEntity.csproj.CoreCompileInputs.cache
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\obj\Debug\PESEntity.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESEntity\obj\Debug\PESEntity.pdb

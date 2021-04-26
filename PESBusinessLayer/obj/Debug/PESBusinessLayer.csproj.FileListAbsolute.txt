@@ -1,0 +1,34 @@
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESBusinessLayer.dll.config
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESBusinessLayer.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESBusinessLayer.pdb
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESDataAccessLayer.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESEntity.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESExceptions.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESDataAccessLayer.pdb
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESDataAccessLayer.dll.config
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESEntity.pdb
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESEntity.dll.config
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESExceptions.pdb
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\bin\Debug\PESExceptions.dll.config
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.csprojAssemblyReference.cache
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.csproj.CopyComplete
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.dll
+C:\Users\sahug\Desktop\PES Sprint 1\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESBusinessLayer.dll.config
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESBusinessLayer.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESBusinessLayer.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESDataAccessLayer.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESEntity.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESExceptions.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESDataAccessLayer.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESDataAccessLayer.dll.config
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESEntity.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESEntity.dll.config
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESExceptions.pdb
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\bin\Debug\PESExceptions.dll.config
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.csprojAssemblyReference.cache
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.csproj.CopyComplete
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.dll
+C:\Users\Pratik\Downloads\Telegram Desktop\PES\PESBusinessLayer\obj\Debug\PESBusinessLayer.pdb

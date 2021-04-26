@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESPresentationLayer", "PESPresentationLayer\PESPresentationLayer.csproj", "{A73D25AC-135D-4DF1-977C-34503059CE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESDataAccessLayer", "PESDataAccessLayer\PESDataAccessLayer.csproj", "{EC0FA0C1-751D-4609-A1A3-C84D084B1720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESBusinessLayer", "PESBusinessLayer\PESBusinessLayer.csproj", "{91201F5A-8251-4F3A-824F-578A1E304C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESEntity", "PESEntity\PESEntity.csproj", "{D71EB521-0164-458F-94E1-A1CF30C7D4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESExceptions", "PESExceptions\PESExceptions.csproj", "{54BE69B0-45FD-4C1C-8D82-F6FE1590F1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESConsoleTest", "PESConsoleTest\PESConsoleTest.csproj", "{1A663EC7-0D8C-4E6C-BCA0-F120E4097973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73D25AC-135D-4DF1-977C-34503059CE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73D25AC-135D-4DF1-977C-34503059CE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73D25AC-135D-4DF1-977C-34503059CE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73D25AC-135D-4DF1-977C-34503059CE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0FA0C1-751D-4609-A1A3-C84D084B1720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0FA0C1-751D-4609-A1A3-C84D084B1720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0FA0C1-751D-4609-A1A3-C84D084B1720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0FA0C1-751D-4609-A1A3-C84D084B1720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91201F5A-8251-4F3A-824F-578A1E304C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91201F5A-8251-4F3A-824F-578A1E304C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91201F5A-8251-4F3A-824F-578A1E304C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91201F5A-8251-4F3A-824F-578A1E304C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71EB521-0164-458F-94E1-A1CF30C7D4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71EB521-0164-458F-94E1-A1CF30C7D4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71EB521-0164-458F-94E1-A1CF30C7D4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71EB521-0164-458F-94E1-A1CF30C7D4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BE69B0-45FD-4C1C-8D82-F6FE1590F1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BE69B0-45FD-4C1C-8D82-F6FE1590F1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BE69B0-45FD-4C1C-8D82-F6FE1590F1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BE69B0-45FD-4C1C-8D82-F6FE1590F1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A663EC7-0D8C-4E6C-BCA0-F120E4097973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A663EC7-0D8C-4E6C-BCA0-F120E4097973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A663EC7-0D8C-4E6C-BCA0-F120E4097973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A663EC7-0D8C-4E6C-BCA0-F120E4097973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {952F8BB4-32B7-4C50-966E-4055974ACF57}
+	EndGlobalSection
+EndGlobal
